@@ -39,7 +39,7 @@ int main(int argc, char *argv[]) {
 		}
 	}
 		
-	else if((strcmp(argv[2], "d") == 0) || (strcmp(argv[2], "E") == 0)) {
+	else if((strcmp(argv[2], "d") == 0) || (strcmp(argv[2], "D") == 0)) {
 		
 		//Decodes input
 		for(int i=0; argv[1][i] != '\0'; i++) {
