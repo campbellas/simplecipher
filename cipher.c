@@ -76,7 +76,7 @@ int main(int argc, char *argv[]) {
 	}
 		
 	else {
-		printf("ERROR: Improper command line argument. Enter 'cipher [words to cipher] [e or d]");
+		printf("ERROR: Improper command line argument. Enter 'cipher [e or d] [words to cipher]");
 	}
 	
 	return 0;
