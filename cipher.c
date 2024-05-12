@@ -4,10 +4,10 @@
 
 int main(int argc, char *argv[]) {
 	
-	if((strcmp(argv[2], "e") == 0) || (strcmp(argv[2], "E") == 0)) {
+	if((strcmp(argv[1], "e") == 0) || (strcmp(argv[1], "E") == 0)) {
 		//Encodes input
-		for(int i=0; argv[1][i] != '\0'; i++) {
-			char encode_it = argv[1][i];
+		for(int i=0; argv[2][i] != '\0'; i++) {
+			char encode_it = argv[2][i];
 		
 			//UPPERCASE HANDLING: A = 65 Z = 90
 			if(encode_it > 64 && encode_it < 91){
@@ -39,11 +39,11 @@ int main(int argc, char *argv[]) {
 		}
 	}
 		
-	else if((strcmp(argv[2], "d") == 0) || (strcmp(argv[2], "D") == 0)) {
+	else if((strcmp(argv[1], "d") == 0) || (strcmp(argv[1], "D") == 0)) {
 		
 		//Decodes input
-		for(int i=0; argv[1][i] != '\0'; i++) {
-			char decode_it = argv[1][i];
+		for(int i=0; argv[2][i] != '\0'; i++) {
+			char decode_it = argv[2][i];
 			
 			//UPPERCASE HANDLING: A = 65 Z = 90
 			if(decode_it > 64 && decode_it < 91){
